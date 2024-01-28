@@ -1,0 +1,89 @@
+section {
+  display: flex;
+  background-color: black;
+}
+section > a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px;
+  color: white;
+}
+section > a:hover {
+  background-color: gray;
+  color: black;
+}
+section > div.div1 {
+  position: relative;
+}
+section > div.div1 > a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px;
+  color: white;
+}
+section > div.div1 > a:hover {
+  background-color: gray;
+  color: black;
+}
+section > div.div1:hover > a {
+  background-color: gray;
+  color: black;
+}
+section > div.div1 > div.div2 {
+  position: absolute;
+  width: 120px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.251);
+  display: none;
+}
+section > div.div1:hover > div.div2 {
+  display: block;
+}
+section > div.div1 > div.div2 > a {
+  text-decoration: none;
+  display: block;
+  color: rgb(2, 2, 2);
+  padding: 12px;
+}
+section > div.div1 > div.div2 > a:hover {
+  background-color: rgba(128, 128, 128, 0.296);
+  color: rgba(0, 0, 0, 0.752);
+}
+section > div.div1 > div.div2 > div.list1 {
+    position: relative;
+}
+section > div.div1 > div.div2 > div.list1 > a {
+  text-decoration: none;
+  display: block;
+  color: rgb(2, 2, 2);
+  padding: 12px;
+
+}
+section > div.div1 > div.div2 > div.list1 > a:hover{
+    background-color: rgba(128, 128, 128, 0.296);
+  color: rgba(0, 0, 0, 0.752); 
+}
+section > div.div1 > div.div2 > div.list1 > div.list2 {
+    display: none;
+    width: 120px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.251);
+    bottom: -84px;
+    right: -120px;
+}
+section > div.div1 > div.div2 > div.list1:hover > div.list2 {
+display: block;
+}
+section > div.div1 > div.div2 > div.list1 > div.list2 > a {
+    text-decoration: none;
+  display: block;
+  color: rgb(2, 2, 2);
+  padding: 12px;
+}
+section > div.div1 > div.div2 > div.list1 > div.list2 > a:hover{
+    background-color: rgba(134, 127, 127, 0.296);
+    color: rgba(0, 0, 0, 0.752);
+}
+section > div.div1 > div.div2 > div.list1:hover > a{
+    background-color: rgba(128, 128, 128, 0.296);
+    color: rgba(0, 0, 0, 0.752);
+}
